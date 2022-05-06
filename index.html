@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="index2.html">
+<style>
+    /* CSS reset */
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/adult-g2469e86af_1920.jpg');
+        height: 474px;
+        color: aliceblue;
+    }
+    
+    .left {
+        position: absolute;
+        left: 11px;
+        top: -4px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+    
+    .mid {
+        /* border: 2px solid rgb(38, 28, 128); */
+        display: block;
+        margin: 20px auto;
+        width: 60%;
+    }
+    
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+    
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 17px 14px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(63, 50, 50);
+    }
+    
+    .left img {
+        width: 126px;
+        filter: brightness(10000%);
+    }
+    
+    .left div {
+        text-align: center;
+        line-height: 0px;
+        font-size: 23px;
+    }
+    
+    .btn {
+        margin: 0px 9px;
+        color: blanchedalmond;
+        background-color: black;
+        padding: 6px 5px;
+        border: 2px solid grey;
+        border-radius: 7px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(53, 43, 43);
+    }
+    
+    .container {
+        border: 2px solid rgb(235, 233, 234);
+        margin: 136px 93px;
+        padding: 50px 70px;
+        width: 33%;
+        border-radius: 14px;
+    }
+    
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 177px;
+        padding: 8px;
+        border: 2px solid rgb(67, 67, 99);
+        margin: 9px auto;
+        border-radius: 9px;
+        font-size: 18px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 65%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym-g1185cb808_1280.png" alt="">
+            <div>GT Fitness </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Calls Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best gym Now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
